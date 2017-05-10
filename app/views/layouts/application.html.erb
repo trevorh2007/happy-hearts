@@ -14,13 +14,12 @@
   </head>
 
   <body>
-    <%= yield %>
 
-      <%= render 'layouts/navbar' %>
+    <%= render 'layouts/navbar-header' %>
+    	
+    	<%= yield %>
 
-      <%= render 'layouts/carousel' %>
-
-      <%= render 'layouts/homegrid' %>
+    <%= render 'layouts/navbar-footer' %>
 
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
