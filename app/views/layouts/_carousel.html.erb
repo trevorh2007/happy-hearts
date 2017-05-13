@@ -1,4 +1,4 @@
-<div class="container responsive-img">
+<div class="container">
 	<div class="carousel">
 	  <a class="carousel-item" href="gallery"><img src="assets/happy1.jpg"></a>
 	  <a class="carousel-item" href="gallery"><img src="assets/happy2.jpg"></a>
@@ -8,6 +8,15 @@
 	</div>
 
 	<script type="text/javascript">
-	      $('.carousel').carousel({duration: 300, padding: 200, indicators: true});
+	      $('.carousel').carousel({
+	      													duration: 300, 
+	      													padding: 200, 
+	      													indicators: true
+	      												});
+	      autoplay()
+				function autoplay() {
+				    $('.carousel').carousel('next');
+				    setTimeout(autoplay, 4500);
+				}
 	</script>
 </div>
