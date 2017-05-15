@@ -8,4 +8,4 @@
 
 - carrierwave photo upload
 - multiple photo upload to single album
-- 
+- slideshow functionality with gallery items with multiple uploads
