@@ -33,3 +33,5 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'devise', github: 'plataformatec/devise'
 gem 'erubis'
+
+gem 'aws-sdk', '~> 2.9', '>= 2.9.29'
